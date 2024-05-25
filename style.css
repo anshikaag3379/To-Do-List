@@ -71,6 +71,7 @@ ul li{
     font-size:17px;
     user-select: none;
     cursor:pointer;
+    position:relative;
 }
 ul li ::before{
     content:'';
@@ -78,7 +79,7 @@ ul li ::before{
     height: 28px;
     width:28px;
     border-radius: 50%;
-    background-image: url('unchecked.png');
+    background-image: url(unchecked.png);
     background-size:cover;
     background-position: center;
     top:12px;
