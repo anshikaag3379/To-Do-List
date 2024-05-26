@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    min-height:100vh;
+    min-height:200vh;
     background: linear-gradient(160deg,#3498db,#8e44ad);
     padding: 10px;
 
@@ -86,7 +86,7 @@ ul li::before{
     left:8px;
 
 }
-ul li.checked{
+ul li.checked {
     color:#555;
     text-decoration: line-through;
 }
@@ -95,7 +95,7 @@ ul li.checked::before{
 }
 ul li span{
     right:0;
-    top:5px;
+    top:7px;
     width:40px;
     height:40px;
     font-size:22px;
